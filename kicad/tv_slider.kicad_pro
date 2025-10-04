@@ -613,6 +613,26 @@
     [
       "914c4b67-a7a4-47f3-8515-668040fd3f8c",
       "Root"
+    ],
+    [
+      "7b64b4e8-954f-4fca-baab-6a07b560f4bc",
+      "Power supply"
+    ],
+    [
+      "29d09a3f-5d85-4167-9532-6c777b8bdc81",
+      "MCU"
+    ],
+    [
+      "e5516eed-629d-4c0b-bb03-2e43d030d802",
+      "Motor drive"
+    ],
+    [
+      "816aa5cb-6066-4d97-997e-6fcfac1c1c32",
+      "Location sensors"
+    ],
+    [
+      "5fc52a5d-8056-4e66-b25c-e5367f161659",
+      "Shaft encoder"
     ]
   ],
   "text_variables": {}

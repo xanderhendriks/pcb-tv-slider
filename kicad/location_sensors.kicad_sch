@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "09ca78c7-5fe6-4a53-94e1-5f58b916268d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "OUT_SLOW"
+		(shape output)
+		(at 167.64 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "447254d1-9b47-44ed-b4f7-5869338a3341")
+	)
+	(hierarchical_label "SENSOR_OUT_STOP"
+		(shape input)
+		(at 44.45 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b29c35d-b10f-4fbb-8e50-8804264556c4")
+	)
+	(hierarchical_label "SENSOR_IN_SLOW"
+		(shape input)
+		(at 44.45 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "760a7c2f-0171-4e63-8e17-48f59aca1aca")
+	)
+	(hierarchical_label "IN_STOP"
+		(shape output)
+		(at 167.64 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bf62e5c-ff1d-40da-a883-9fc1101df5b3")
+	)
+	(hierarchical_label "IN_SLOW"
+		(shape output)
+		(at 167.64 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ef9105a-af87-429e-8571-a5d0f1ab93ef")
+	)
+	(hierarchical_label "OUT_STOP"
+		(shape output)
+		(at 167.64 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2947816-1878-454c-936f-885b4c5e3ebd")
+	)
+	(hierarchical_label "SENSOR_OUT_SLOW"
+		(shape input)
+		(at 44.45 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d02eb6d2-2ddf-43ec-912a-357fd4e5b759")
+	)
+	(hierarchical_label "SENSOR_IN_STOP"
+		(shape input)
+		(at 44.45 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff66b249-6ed5-42f1-bf56-20129d4e4546")
+	)
+)
