@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "75ddd5fa-c554-4310-a6f5-3217baa42c2c")
 	(paper "A4")
+	(title_block
+		(title "TV slider")
+		(date "2025-10-06")
+		(rev "1")
+		(company "NX Solutions")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1670,6 +1676,12 @@
 		(uuid "b34248e0-34f0-4da6-85e6-5d89812a75c9")
 	)
 	(junction
+		(at 160.02 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1881263-9cd7-427d-8e74-ec025aae37e9")
+	)
+	(junction
 		(at 160.02 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2013,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 142.24) (xy 160.02 151.13)
+			(xy 160.02 142.24) (xy 160.02 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2073,6 +2085,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 66.04) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0be2c9-77b7-4723-bfab-9db45d448d22")
+	)
+	(wire
+		(pts
 			(xy 160.02 99.06) (xy 157.48 99.06)
 		)
 		(stroke
@@ -2090,6 +2112,16 @@
 			(type default)
 		)
 		(uuid "8db87d80-bbfe-4e38-a879-ea469c6c8b02")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 254 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90821112-dae5-4652-99a0-f852ec7c00a0")
 	)
 	(wire
 		(pts
@@ -2190,6 +2222,16 @@
 			(type default)
 		)
 		(uuid "bfb9e454-210f-42b7-94b0-f7ec3482a249")
+	)
+	(wire
+		(pts
+			(xy 157.48 147.32) (xy 160.02 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c067d915-b94b-4e8c-9ebe-672a72bbbd10")
 	)
 	(wire
 		(pts
@@ -2343,6 +2385,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 147.32) (xy 160.02 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e756b961-e78e-456f-8255-decea621b88e")
+	)
+	(wire
+		(pts
 			(xy 157.48 60.96) (xy 167.64 60.96)
 		)
 		(stroke
@@ -2423,7 +2475,7 @@
 		(uuid "1ed15adb-25a5-45e6-aa96-5af7b1e3af94")
 	)
 	(hierarchical_label "ENABLE"
-		(shape output)
+		(shape input)
 		(at 88.9 63.5 180)
 		(effects
 			(font
@@ -2434,7 +2486,7 @@
 		(uuid "295d5f41-bb7c-48b4-b57c-aec0532fbd48")
 	)
 	(hierarchical_label "MOSI"
-		(shape output)
+		(shape input)
 		(at 88.9 86.36 180)
 		(effects
 			(font
@@ -2445,7 +2497,7 @@
 		(uuid "38aecb17-13fa-4d80-adc8-344dd6684e11")
 	)
 	(hierarchical_label "~{CS}"
-		(shape output)
+		(shape input)
 		(at 88.9 83.82 180)
 		(effects
 			(font
@@ -2477,8 +2529,19 @@
 		)
 		(uuid "62604027-5afc-4d9b-a917-f4e312aeecd9")
 	)
-	(hierarchical_label "STEP"
+	(hierarchical_label "~{FAULT}"
 		(shape output)
+		(at 254 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a944e5d-0fc4-4c72-aa57-95ac7a60c8f6")
+	)
+	(hierarchical_label "STEP"
+		(shape input)
 		(at 87.63 76.2 180)
 		(effects
 			(font
@@ -2499,8 +2562,19 @@
 		)
 		(uuid "92e3887e-193a-4828-a420-91f33b53d6e6")
 	)
+	(hierarchical_label "~{SLEEP}"
+		(shape input)
+		(at 88.9 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94c6b458-8adf-467a-9a5e-ddb0a96fd689")
+	)
 	(hierarchical_label "DIR"
-		(shape output)
+		(shape input)
 		(at 87.63 78.74 180)
 		(effects
 			(font
@@ -2511,7 +2585,7 @@
 		(uuid "b6e0bdd8-8460-416c-9024-c0ec6058ae3e")
 	)
 	(hierarchical_label "SCLK"
-		(shape output)
+		(shape input)
 		(at 88.9 91.44 180)
 		(effects
 			(font
@@ -2542,7 +2616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e59a4d-f6d6-4e37-ba01-6fa54f904751")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR045"
 			(at 177.8 157.48 0)
 			(effects
 				(font
@@ -2592,7 +2666,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR018")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2608,7 +2682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1359055a-66f4-4502-8c50-8fb3b09fe470")
-		(property "Reference" "C5"
+		(property "Reference" "C18"
 			(at 236.22 142.6209 0)
 			(effects
 				(font
@@ -2626,7 +2700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 233.3752 148.59 0)
 			(effects
 				(font
@@ -2653,7 +2727,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "63V"
+		(property "Voltage" "63V"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Electrolytic"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "EEU-FR1J102"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "P12418-ND"
 			(at 232.41 144.78 0)
 			(effects
 				(font
@@ -2671,7 +2790,7 @@
 		(instances
 			(project ""
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "C5")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2687,7 +2806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17aac058-2bda-4874-a8d6-706d51218e8e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR043"
 			(at 160.02 157.48 0)
 			(effects
 				(font
@@ -2737,7 +2856,7 @@
 		(instances
 			(project ""
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR015")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2753,7 +2872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e0f08a-7c9f-4025-a1c3-7800efc7ccab")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR052"
 			(at 232.41 157.48 0)
 			(effects
 				(font
@@ -2803,7 +2922,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR023")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2819,7 +2938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5996b6-b608-4ad2-aaf5-d7914c4bb902")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR041"
 			(at 111.76 52.07 0)
 			(effects
 				(font
@@ -2869,7 +2988,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR020")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2884,7 +3003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aa00a0e-100a-41c6-b0c9-b7a833d6280d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR047"
 			(at 205.74 142.24 0)
 			(effects
 				(font
@@ -2934,7 +3053,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR024")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2950,7 +3069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6296561a-05fe-4223-8664-febad68cf529")
-		(property "Reference" "C2"
+		(property "Reference" "C14"
 			(at 181.61 143.5099 0)
 			(effects
 				(font
@@ -2968,7 +3087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 178.7652 148.59 0)
 			(effects
 				(font
@@ -2995,7 +3114,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "16V"
+		(property "Voltage" "100V"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM21BR72A105KE01L"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "490-5526-1-ND"
 			(at 177.8 144.78 0)
 			(effects
 				(font
@@ -3013,7 +3177,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3029,7 +3193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8378d32a-5c32-4cc4-8d0a-04650ecf4598")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR048"
 			(at 205.74 157.48 0)
 			(effects
 				(font
@@ -3079,7 +3243,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR021")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3095,7 +3259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8812a484-c1a3-4b9e-9258-0fe4585f0ca1")
-		(property "Reference" "C1"
+		(property "Reference" "C15"
 			(at 195.58 143.5099 0)
 			(effects
 				(font
@@ -3113,7 +3277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 192.7352 148.59 0)
 			(effects
 				(font
@@ -3140,7 +3304,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "10V"
+		(property "Voltage" "100V"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM21BR72A105KE01L"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "490-5526-1-ND"
 			(at 191.77 144.78 0)
 			(effects
 				(font
@@ -3158,7 +3367,7 @@
 		(instances
 			(project ""
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "C1")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a79137d-906e-4ffa-a31b-167be628b808")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR042"
 			(at 160.02 50.8 0)
 			(effects
 				(font
@@ -3224,7 +3433,7 @@
 		(instances
 			(project ""
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR016")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3239,7 +3448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94fe8a1b-a040-48d8-b75f-cd4c8e18dccd")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR051"
 			(at 232.41 142.24 0)
 			(effects
 				(font
@@ -3289,7 +3498,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR026")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3304,7 +3513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "952a2479-a6d4-4b1c-81e2-7e8560641087")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR049"
 			(at 218.44 142.24 0)
 			(effects
 				(font
@@ -3354,7 +3563,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR025")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c8334f0-94ee-4923-ab87-1137c17f8f9a")
-		(property "Reference" "C3"
+		(property "Reference" "C16"
 			(at 209.55 143.5099 0)
 			(effects
 				(font
@@ -3388,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 206.7052 148.59 0)
 			(effects
 				(font
@@ -3415,7 +3624,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "63V"
+		(property "Voltage" "50V"
+			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM188R71H103KA01D"
+			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "490-6377-1-ND"
 			(at 205.74 144.78 0)
 			(effects
 				(font
@@ -3433,7 +3687,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "C3")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6164f0-38b3-46f9-ba52-105e441b9f47")
-		(property "Reference" "C4"
+		(property "Reference" "C17"
 			(at 222.25 143.5099 0)
 			(effects
 				(font
@@ -3467,7 +3721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 219.4052 148.59 0)
 			(effects
 				(font
@@ -3494,7 +3748,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "63V"
+		(property "Voltage" "50V"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM188R71H103KA01D"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "490-6377-1-ND"
 			(at 218.44 144.78 0)
 			(effects
 				(font
@@ -3512,7 +3811,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "C4")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3528,7 +3827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2b87ccb-37f7-4639-ab1a-3f3cab01fe32")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR050"
 			(at 218.44 157.48 0)
 			(effects
 				(font
@@ -3578,7 +3877,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR022")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3594,7 +3893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b470ff20-a413-4971-8e91-96989604eaa5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR046"
 			(at 191.77 157.48 0)
 			(effects
 				(font
@@ -3644,7 +3943,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR019")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3659,7 +3958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b828fc5d-de60-4d63-943d-3ee83a2438ef")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR044"
 			(at 167.64 50.8 0)
 			(effects
 				(font
@@ -3709,7 +4008,7 @@
 		(instances
 			(project ""
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "#PWR017")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3725,7 +4024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d68c54d8-3f53-40c2-b9ba-ad6ac1436fe8")
-		(property "Reference" "U2"
+		(property "Reference" "U6"
 			(at 137.16 43.18 0)
 			(effects
 				(font
@@ -3816,6 +4115,51 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "296-DRV8452DDWRCT-ND"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "TI"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "DRV8452DDWR"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3957,7 +4301,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "U2")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3971,9 +4315,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff9dc4ef-cec9-4096-a220-a151ebc8fbee")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 171.45 71.1199 0)
 			(effects
 				(font
@@ -3991,7 +4334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 76.2 0)
 			(effects
 				(font
@@ -4018,7 +4361,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "63V"
+		(property "Voltage" "100V"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Murata"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GRM188R72A104KA35D"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "490-3890-1-ND"
 			(at 167.64 72.39 0)
 			(effects
 				(font
@@ -4036,7 +4424,7 @@
 		(instances
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
-					(reference "C6")
+					(reference "C13")
 					(unit 1)
 				)
 			)
