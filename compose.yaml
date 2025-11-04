@@ -1,0 +1,13 @@
+services:
+  kicad:
+    image: kicad/kicad:9.0.6-full
+    container_name: kicad
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./kicad:/workspace
+    command: kicad /workspace/tv_slider.kicad_pro
+    devices:
+      - /dev/dri
+    restart: "no"
