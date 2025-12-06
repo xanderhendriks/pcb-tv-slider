@@ -8,6 +8,4 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ./kicad:/workspace
     command: kicad /workspace/tv_slider.kicad_pro
-    devices:
-      - /dev/dri
     restart: "no"
