@@ -1449,37 +1449,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:LM5164DDA"
+		(symbol "Regulator_Switching:LMR33630ADDA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 11.43 0)
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LM5164DDA"
-				(at 5.08 11.43 0)
+			(property "Value" "LMR33630ADDA"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
-				(at 1.27 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5164.pdf?ts=1598311864250&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5164%253FHQS%253DTI-null-null-octopart-df-pf-null-wwe"
-				(at -7.62 8.89 0)
+			(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1487,7 +1478,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, HSOP-8"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33630.pdf"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage, HSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1496,7 +1496,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "step-down dc-dc buck regulator adjustable"
+			(property "ki_keywords" "simple-switcher synchronous buck step-down voltage-regulator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1505,7 +1505,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "HSOP*1EP*3.9x4.9*P1.27mm*"
+			(property "ki_fp_filters" "Texas*HSOP*1EP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1514,10 +1514,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM5164DDA_1_1"
+			(symbol "LMR33630ADDA_0_1"
 				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1526,8 +1526,10 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "LMR33630ADDA_1_1"
 				(pin power_in line
-					(at -12.7 7.62 0)
+					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -1545,9 +1547,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 2.54 0)
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "EN/UVLO"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1562,17 +1564,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 -5.08 0)
+				(pin power_out line
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "RON"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1581,7 +1583,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -12.7 90)
+					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1599,9 +1601,10 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -12.7 90)
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "EP"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1616,10 +1619,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 7.62 180)
+				(pin input line
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "BST"
+					(name "BOOT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1634,8 +1637,8 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 12.7 2.54 180)
+				(pin output line
+					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "SW"
 						(effects
@@ -1653,7 +1656,7 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -2.54 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "FB"
 						(effects
@@ -1671,16 +1674,16 @@
 					)
 				)
 				(pin open_collector line
-					(at 12.7 -5.08 180)
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "PGOOD"
+					(name "PG"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2674,6 +2677,46 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text_box "4 hall sensors: 20 mA\nshaft encoder: 18 mA"
+		(exclude_from_sim no)
+		(at 241.3 91.44 0)
+		(size 24.13 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "02f87f9e-5b63-40df-a43c-bf2e51e4c62d")
+	)
+	(text_box "ESP32 C6 DEVKITC: 170 mA"
+		(exclude_from_sim no)
+		(at 236.22 129.54 0)
+		(size 29.21 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3977f3c5-e8ac-4c49-8317-b55a127578bb")
 	)
 	(junction
 		(at 200.66 99.06)
@@ -4372,6 +4415,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 195.58 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce49f56-5467-4249-95f4-e019fe74e048")
+		(property "Reference" "L1"
+			(at 196.85 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L"
+			(at 196.85 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76c579a9-5d2d-479f-8423-e42cf5ab7e2e")
+		)
+		(pin "2"
+			(uuid "5daba332-5b56-4c05-98a7-1b323e78a312")
+		)
+		(instances
+			(project ""
+				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 176.53 99.06 90)
 		(unit 1)
@@ -4753,6 +4866,95 @@
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LMR33630ADDA")
+		(at 246.38 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3280a115-0826-464d-b2a4-52e49b03b771")
+		(property "Reference" "U11"
+			(at 246.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR33630ADDA"
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33630.pdf"
+			(at 246.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage, HSOP-8"
+			(at 246.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6d42a37c-0de4-4b4e-9e1a-2e4dca41a389")
+		)
+		(pin "9"
+			(uuid "e30800ad-be84-4341-ae1c-fae068ec59fb")
+		)
+		(pin "5"
+			(uuid "81731592-1b76-419e-9200-6b9bc88905fe")
+		)
+		(pin "7"
+			(uuid "272a7d02-de70-40f6-b311-66a9101e32ee")
+		)
+		(pin "1"
+			(uuid "6aedf7bd-23d8-4905-813f-c555861c56f6")
+		)
+		(pin "2"
+			(uuid "c9c483f6-03d7-4cb0-b1c8-23d95c4939e6")
+		)
+		(pin "6"
+			(uuid "c24f3cb4-6eec-4227-95c9-df6b8db1b705")
+		)
+		(pin "8"
+			(uuid "05adf3ba-7643-40a9-930f-a4ff62f8e2ae")
+		)
+		(pin "3"
+			(uuid "e0db7560-9267-401c-bf75-593a4f177224")
+		)
+		(instances
+			(project "tv_slider"
+				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5837,140 +6039,6 @@
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:TPS82130")
-		(at 218.44 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d5f7181-844f-43d4-92e0-a59107171efb")
-		(property "Reference" "U3"
-			(at 218.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS82130"
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local_library:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
-			(at 218.44 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps82130.pdf"
-			(at 218.44 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8"
-			(at 218.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 218.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 218.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierPN" "296-47436-1-ND"
-			(at 218.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 218.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPS82130SILR"
-			(at 218.44 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ca67623c-685e-40ea-b99b-f5f4a71037ab")
-		)
-		(pin "6"
-			(uuid "28b95cf2-31e2-4ed0-b899-4f6066c920aa")
-		)
-		(pin "8"
-			(uuid "f3a0faf2-00e3-495d-bdd7-43505525733a")
-		)
-		(pin "2"
-			(uuid "2539f76c-9fb0-497e-a334-7a86a19ce2fb")
-		)
-		(pin "7"
-			(uuid "cb71e429-d8ce-467f-9eb1-71df23506df3")
-		)
-		(pin "4"
-			(uuid "6d2d9083-a4ab-4a61-b1ec-77caad57f6b7")
-		)
-		(pin "1"
-			(uuid "71bb57b1-2b1f-4dc1-9690-0c623dffbf28")
-		)
-		(pin "9"
-			(uuid "58b56f2f-0b1e-4c78-94d0-8f959b3d61d2")
-		)
-		(pin "5"
-			(uuid "01f39fd8-01ad-4164-9abf-8cf6c2900f1b")
-		)
-		(instances
-			(project ""
-				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8047,119 +8115,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 134.62 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf187960-e12e-4c4c-8a9a-b1f077a95f69")
-		(property "Reference" "L1"
-			(at 134.62 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68u"
-			(at 134.62 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local_library:INDPM102100X400N"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 134.62 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 134.62 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierPN" "2457-MSS1038-683MLC-ND"
-			(at 134.62 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Coilcraft"
-			(at 134.62 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "MSS1038-683MLC"
-			(at 134.62 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21b53716-e09a-4c3a-820f-4a2ef60bc94d")
-		)
-		(pin "2"
-			(uuid "799a5e59-4852-4807-b607-9e1840fdb292")
-		)
-		(instances
-			(project ""
-				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 55.88 66.04 0)
 		(unit 1)
@@ -8220,140 +8175,6 @@
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LM5164DDA")
-		(at 102.87 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1933642-f5e6-44b9-ae7a-4b6d2da70796")
-		(property "Reference" "U2"
-			(at 102.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM5164DDA"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
-			(at 104.14 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5164.pdf?ts=1598311864250&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5164%253FHQS%253DTI-null-null-octopart-df-pf-null-wwe"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, HSOP-8"
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SupplierPN" "296-53428-1-ND"
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM5164DDAR"
-			(at 102.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b5c15c0-7933-4d49-9172-84031ab8efc5")
-		)
-		(pin "4"
-			(uuid "1228305b-9514-45fe-a1d7-9e584a99fe49")
-		)
-		(pin "3"
-			(uuid "13ca76f6-5357-432c-b8f6-a94dce9af84b")
-		)
-		(pin "1"
-			(uuid "3cb2f971-94a1-4369-ac5f-8b40d527b431")
-		)
-		(pin "9"
-			(uuid "df5cb3a1-e86d-4211-834e-6ff00ffaec30")
-		)
-		(pin "7"
-			(uuid "91a191c9-cec3-4cad-9c31-8c45f8261e47")
-		)
-		(pin "8"
-			(uuid "2c4b967a-2bff-4bb0-afe9-1fd9d99b882e")
-		)
-		(pin "6"
-			(uuid "e852a581-809e-4a6f-93cb-37c37809c3b0")
-		)
-		(pin "5"
-			(uuid "e9788f08-ef89-4a08-9c5d-1e6d85777d2f")
-		)
-		(instances
-			(project ""
-				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8989,6 +8810,95 @@
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:LMR33630ADDA")
+		(at 220.98 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6c1985a-5502-49cc-b064-051ef1449826")
+		(property "Reference" "U10"
+			(at 220.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR33630ADDA"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr33630.pdf"
+			(at 220.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage, HSOP-8"
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "80a9d5ac-f676-4277-a87e-26810c8bfabe")
+		)
+		(pin "9"
+			(uuid "cd379df7-4d7e-4643-96ea-8f68cf3aff8e")
+		)
+		(pin "5"
+			(uuid "d1015b8f-7e15-46ca-9afd-07041d5ca1dd")
+		)
+		(pin "7"
+			(uuid "bd155ab9-f0f6-43aa-a826-437152fd9c63")
+		)
+		(pin "1"
+			(uuid "142886ea-aeff-440b-8253-43489abeb52c")
+		)
+		(pin "2"
+			(uuid "aadf30fe-e692-4204-844e-f6e44f308ea5")
+		)
+		(pin "6"
+			(uuid "38079454-857f-4a4e-aa98-37bac2b8f9d1")
+		)
+		(pin "8"
+			(uuid "ea2357b8-da32-4fc8-86e1-c2811d3d9027")
+		)
+		(pin "3"
+			(uuid "c8cf21cf-a5e3-44bf-ac61-28201325fa59")
+		)
+		(instances
+			(project ""
+				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/7b64b4e8-954f-4fca-baab-6a07b560f4bc"
+					(reference "U10")
 					(unit 1)
 				)
 			)
