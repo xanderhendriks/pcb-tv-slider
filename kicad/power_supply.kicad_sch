@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TV slider")
-		(date "2025-10-06")
-		(rev "1")
+		(date "2025-12-23")
+		(rev "1.0")
 		(company "NX Solutions")
 	)
 	(lib_symbols
@@ -3569,7 +3569,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5SMC33CA"
+		(property "Value" "SMBJ33CA"
 			(at 34.29 60.9599 90)
 			(effects
 				(font
@@ -3578,7 +3578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 36.83 59.69 0)
 			(effects
 				(font
@@ -3587,7 +3587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88303/15smc.pdf"
+		(property "Datasheet" ""
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -3596,7 +3596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1500W bidirectional TVS diode, SMC (DO-201AB)"
+		(property "Description" ""
 			(at 31.75 59.69 0)
 			(effects
 				(font
@@ -3623,7 +3623,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "4878-1.5SMCJ58CACT-ND"
+		(property "SupplierPN" "SMBJ33CABCT-ND"
 			(at 31.75 59.69 90)
 			(effects
 				(font
@@ -3632,7 +3632,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Diotec Semiconductor"
+		(property "MF" "Bourns"
 			(at 31.75 59.69 90)
 			(effects
 				(font
@@ -3641,7 +3641,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "1.5SMCJ58CA"
+		(property "MP" "SMBJ33CA"
 			(at 31.75 59.69 90)
 			(effects
 				(font
