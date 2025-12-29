@@ -1315,16 +1315,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 81.28) (xy 184.15 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269f0f12-e700-40ba-a057-8320a2d139c2")
-	)
-	(wire
-		(pts
 			(xy 163.83 99.06) (xy 184.15 99.06)
 		)
 		(stroke
@@ -1342,6 +1332,16 @@
 			(type default)
 		)
 		(uuid "2e4dcb44-7d32-404f-ad97-1c182a9f2675")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cadd118-2dd1-4fa1-b0cb-55f82111c9cb")
 	)
 	(wire
 		(pts
@@ -1565,13 +1565,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 78.74) (xy 184.15 78.74)
+			(xy 163.83 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ceca49dc-aacb-4023-aafd-2d3aa712080e")
+		(uuid "d85f73b9-48b7-4799-b9ba-e19d3ece2eef")
 	)
 	(wire
 		(pts
@@ -1603,7 +1603,7 @@
 		)
 		(uuid "fe5f4492-727e-44ff-a72d-80bda0ffd3c1")
 	)
-	(hierarchical_label "UP{slash}~{DOWN}"
+	(hierarchical_label "COUNT"
 		(shape output)
 		(at 184.15 81.28 0)
 		(effects
@@ -1612,18 +1612,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5dd55a2e-d8f0-46d0-8023-2490e4691c20")
-	)
-	(hierarchical_label "COUNT"
-		(shape output)
-		(at 184.15 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5dd55a2e-d8f0-46d0-8023-2490e4691c21")
+		(uuid "281418fc-b258-47c3-8222-802af0a4e56b")
 	)
 	(hierarchical_label "SCLK"
 		(shape output)
@@ -1712,6 +1701,17 @@
 			(justify left)
 		)
 		(uuid "a9aeaaa3-6ed0-413e-b640-79f9c6e0246f")
+	)
+	(hierarchical_label "UP{slash}~{DOWN}"
+		(shape output)
+		(at 184.15 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7878098-e72a-4f52-8d8d-cb7ee500a1d8")
 	)
 	(hierarchical_label "ENABLE"
 		(shape output)
@@ -2156,6 +2156,51 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "61300411121"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "732-5317-ND"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a3fcdf6-932f-40f9-ab6e-092df90f6421")
 		)
@@ -2278,6 +2323,15 @@
 			)
 		)
 		(property "MP" "GRM188R72A104KA35D"
+			(at 53.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 53.34 173.99 0)
 			(effects
 				(font
@@ -2489,6 +2543,15 @@
 			)
 		)
 		(property "MP" "ESP32-C6-DEVKITC-1-N8"
+			(at 143.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 143.51 96.52 0)
 			(effects
 				(font

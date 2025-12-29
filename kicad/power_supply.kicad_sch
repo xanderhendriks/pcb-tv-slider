@@ -3659,6 +3659,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 31.75 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4623661e-a37d-49f3-a923-71130a87e643")
 		)
@@ -3729,7 +3738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7S"
+		(property "Dielectric" "X7T"
 			(at 97.79 156.21 0)
 			(effects
 				(font
@@ -3747,7 +3756,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-GRM188C71C105KA12JCT-ND"
+		(property "SupplierPN" "490-GRM188D71H105KE01JCT-ND"
 			(at 97.79 156.21 0)
 			(effects
 				(font
@@ -3765,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM188C71C105KA12J"
+		(property "MP" "GRM188D71H105KE01J"
 			(at 97.79 156.21 0)
 			(effects
 				(font
@@ -3774,7 +3783,16 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
+			(at 97.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 97.79 156.21 0)
 			(effects
 				(font
@@ -3919,7 +3937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7S"
+		(property "Dielectric" "X7T"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -3937,7 +3955,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-GRM188C71C105KA12JCT-ND"
+		(property "SupplierPN" "490-GRM188D71H105KE01JCT-ND"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -3955,7 +3973,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM188C71C105KA12J"
+		(property "MP" "GRM188D71H105KE01J"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -3964,7 +3982,16 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -4091,6 +4118,15 @@
 		)
 		(property "Voltage" "60V"
 			(at 72.39 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 72.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,6 +4588,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 154.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "edfa7191-ca4f-49f4-b2e5-a5b7c86fd19b")
 		)
@@ -4734,6 +4779,15 @@
 			)
 		)
 		(property "Voltage" "50V"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 85.09 111.76 0)
 			(effects
 				(font
@@ -4963,6 +5017,51 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Bourns"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SRP4020TA-100M"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "SRP4020TA-100MCT-ND"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e692f9b-3224-486c-9a70-3abc855cff87")
 		)
@@ -5033,7 +5132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "Polymer"
+		(property "Dielectric" "X7S"
 			(at 168.91 156.21 0)
 			(effects
 				(font
@@ -5079,6 +5178,15 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 168.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 168.91 156.21 0)
 			(effects
 				(font
@@ -5194,6 +5302,15 @@
 			)
 		)
 		(property "MP" "TPS26632RGET"
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 115.57 38.1 0)
 			(effects
 				(font
@@ -5331,6 +5448,51 @@
 			)
 		)
 		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LMR33610ADDAR"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "296-LMR33610ADDARCT-ND"
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -5614,6 +5776,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 130.81 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0bfee4a7-b711-4178-a080-07e680cde819")
 		)
@@ -5721,6 +5892,15 @@
 			)
 		)
 		(property "MP" "RC0603FR-07100KL"
+			(at 146.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 146.05 146.05 0)
 			(effects
 				(font
@@ -5853,6 +6033,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9de3ca04-f4dc-41d8-bc89-209638c26bf2")
 		)
@@ -5977,6 +6166,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "519b9946-c7b4-40a3-8e4c-0e5c79244084")
 		)
@@ -6092,6 +6290,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "249d551a-bf38-4522-957f-d4c9f198a398")
 		)
@@ -6180,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "311-100KHRCT-ND"
+		(property "SupplierPN" "311-6.98KHRCT-ND"
 			(at 143.51 58.42 0)
 			(effects
 				(font
@@ -6198,7 +6405,16 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-07100KL"
+		(property "MP" "RC0603FR-076K98L"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 143.51 58.42 0)
 			(effects
 				(font
@@ -6428,6 +6644,51 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Bourns"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SRP4020TA-100M"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "SRP4020TA-100MCT-ND"
+			(at 138.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a7b366b4-d750-4d64-a461-97f1d4c633de")
 		)
@@ -6552,6 +6813,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 85.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5d307774-735f-447b-8e2c-1a9133326a04")
 		)
@@ -6622,7 +6892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "Polymer"
+		(property "Dielectric" "X7S"
 			(at 157.48 156.21 0)
 			(effects
 				(font
@@ -6668,6 +6938,15 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 157.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 157.48 156.21 0)
 			(effects
 				(font
@@ -6783,6 +7062,15 @@
 			)
 		)
 		(property "MP" "RC0603FR-07100KL"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 146.05 101.6 0)
 			(effects
 				(font
@@ -6913,6 +7201,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 130.81 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d286fed-87ee-4e26-bae4-2f9d7744eba5")
 		)
@@ -7021,6 +7318,15 @@
 			)
 		)
 		(property "MP" "CSD19537Q3"
+			(at 86.36 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 86.36 27.94 90)
 			(effects
 				(font
@@ -7156,6 +7462,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3eea584-d0e3-4856-80f0-f7a8ec39b3d3")
 		)
@@ -7229,7 +7544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "Polymer"
+		(property "Dielectric" "X7S"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -7275,6 +7590,15 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -7398,6 +7722,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 146.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a3882485-382d-4c9c-940d-d3cc2bf4d05c")
 		)
@@ -7468,7 +7801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "Polymer"
+		(property "Dielectric" "X7S"
 			(at 168.91 111.76 0)
 			(effects
 				(font
@@ -7514,6 +7847,15 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 168.91 111.76 0)
 			(effects
 				(font
@@ -7714,6 +8056,51 @@
 			)
 		)
 		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "LMR33610ADDAR"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "296-LMR33610ADDARCT-ND"
 			(at 115.57 102.87 0)
 			(effects
 				(font

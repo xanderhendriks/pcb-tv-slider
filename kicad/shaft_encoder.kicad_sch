@@ -2867,6 +2867,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bbb6afe-e50d-4c9c-8dc7-ea48a6275d31")
 		)
@@ -2983,6 +2992,15 @@
 			)
 		)
 		(property "MP" "RC0603FR-07100KL"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -3236,6 +3254,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba6b8593-bf01-4098-8719-136c42e25bb1")
 		)
@@ -3452,6 +3479,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6db0bf50-e577-4d14-9759-3ed06fce8a2b")
 		)
@@ -3649,6 +3685,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52fcf8b4-4fc5-4fde-8229-ec61f7ff58f4")
 		)
@@ -3773,6 +3818,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9bc309ad-0ba6-4916-a75e-3eb8f46e8ad8")
 		)
@@ -3861,7 +3915,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "RC0603FR-07120RL"
+		(property "SupplierPN" "311-120HRCT-ND"
 			(at 113.03 101.6 0)
 			(effects
 				(font
@@ -3880,6 +3934,15 @@
 			)
 		)
 		(property "MP" "RC0603FR-07120RL"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 113.03 101.6 0)
 			(effects
 				(font
@@ -3994,6 +4057,15 @@
 		)
 		(property "MP" "RC0603FR-0710RL"
 			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,6 +4202,51 @@
 		)
 		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
 			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "SMC Diode Solutions"
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SM712"
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "1655-SM712CT-ND"
+			(at 76.2 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,6 +4579,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 157.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30c14f56-af01-4f9e-8486-9b0a7f95b228")
 		)
@@ -4598,7 +4724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "C0G, NP0"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4644,6 +4770,15 @@
 			)
 		)
 		(property "Voltage" "50V"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4776,6 +4911,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 127 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae1e304e-6fda-4cf4-bf08-6257a7ea25fb")
 		)
@@ -4839,6 +4983,51 @@
 		)
 		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
 			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "SMC Diode Solutions"
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SM712"
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "1655-SM712CT-ND"
+			(at 76.2 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,6 +5228,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0d82dac-49c9-47a0-bc0b-7ea9dd527223")
 		)
@@ -5072,7 +5270,7 @@
 				)
 			)
 		)
-		(property "Value" "0.2A"
+		(property "Value" "200mA"
 			(at 123.19 128.27 90)
 			(effects
 				(font
@@ -5154,6 +5352,15 @@
 			)
 		)
 		(property "Voltage" "60V"
+			(at 123.19 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 123.19 132.08 90)
 			(effects
 				(font
@@ -5335,6 +5542,15 @@
 			)
 		)
 		(property "MP" "RC0603FR-07120RL"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -5743,7 +5959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "C0G, NP0"
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -5789,6 +6005,15 @@
 			)
 		)
 		(property "Voltage" "50V"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -5860,6 +6085,60 @@
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 6Vrwm, SMF"
 			(at 96.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 96.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMF6V0A-E3-08"
+			(at 96.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 96.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 96.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SupplierPN" "SMF6V0A-E3-08CT-ND"
+			(at 96.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10.3V"
+			(at 96.52 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,6 +6252,15 @@
 			)
 		)
 		(property "MP" "ISL3280EIHZ-T"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -6096,6 +6384,15 @@
 		)
 		(property "MP" "RC0603FR-0710RL"
 			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6554,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-16824-1-ND"
+		(property "SupplierPN" "490-18663-1-ND"
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -6275,7 +6572,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM21BR61E106KA73K"
+		(property "MP" "GRM21BR61H106KE43L"
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -6284,7 +6581,16 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -6588,6 +6894,15 @@
 		)
 		(property "SupplierPN" "490-1054-1-ND"
 			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 109.22 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
