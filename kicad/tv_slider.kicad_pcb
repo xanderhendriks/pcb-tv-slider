@@ -21740,7 +21740,7 @@
 		(path "/5fc52a5d-8056-4e66-b25c-e5367f161659/99673449-dc01-4aa4-af29-687451dd2fa3")
 		(sheetname "/Shaft encoder/")
 		(sheetfile "shaft_encoder.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -28791,7 +28791,7 @@
 		(path "/5fc52a5d-8056-4e66-b25c-e5367f161659/5b7bb00e-4495-4b6c-a254-5ef7272e8191")
 		(sheetname "/Shaft encoder/")
 		(sheetfile "shaft_encoder.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
