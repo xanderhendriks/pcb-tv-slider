@@ -4676,7 +4676,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b7bb00e-4495-4b6c-a254-5ef7272e8191")
 		(property "Reference" "C32"
@@ -5911,7 +5911,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99673449-dc01-4aa4-af29-687451dd2fa3")
 		(property "Reference" "C31"
