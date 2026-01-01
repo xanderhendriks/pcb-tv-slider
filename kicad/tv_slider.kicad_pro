@@ -9,9 +9,9 @@
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_size_h": 1.0,
+        "copper_text_size_v": 1.0,
+        "copper_text_thickness": 0.2,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
@@ -41,11 +41,11 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.001
@@ -58,7 +58,432 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|159195000|70104000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "annular_width|159195000|71204000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "annular_width|159195000|72304000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "annular_width|160295000|70104000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "annular_width|160295000|72304000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "annular_width|161395000|70104000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "annular_width|161395000|72304000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|144638000|114382000|1767a6e2-fe74-4499-b555-b3cf7c477100|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|144638000|115682000|8218ca95-73c8-4df9-87a7-f332a6572dc5|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|144638000|116982000|6c238812-786a-40e2-8188-062c17c55d6b|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|144638000|118282000|6c4793e3-ee71-4521-a577-0245787231a6|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|144638000|93554000|97341616-f9f8-4cfc-91b8-1e33fd595ce2|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|144638000|94854000|dc3a0d69-4d38-45fa-a6e8-25cdf4511836|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|144638000|96154000|ae51a717-d9d9-42d8-9f66-244bcefe7e0b|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|144638000|97454000|c4130865-27dc-475e-95a0-feb3a1ddb373|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|145938000|114382000|3c4e35b6-f388-49ec-b42f-d3a4de3f7522|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|145938000|115682000|d89413e0-0b38-46d7-b049-4a2350fc3945|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|145938000|116982000|0635113a-6e80-43df-8c8e-847d6a97fa44|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|145938000|118282000|6da58358-c7a3-4539-86ba-f067853d4556|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|145938000|93554000|a7ee5976-f29a-4f60-9ce9-efb1bcf9b3dc|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|145938000|94854000|de20e3d3-188f-440d-81da-b68acc9906d1|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|145938000|96154000|d08a9054-cd10-44f6-8b6e-ca980b994ed2|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|145938000|97454000|2799d183-d7c6-4a25-bcd5-0c0a3616f968|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|159195000|70104000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|159195000|71204000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|159195000|72304000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|160295000|70104000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|160295000|71204000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|160295000|72304000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|161395000|70104000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|161395000|71204000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|161395000|72304000|8308a9c8-4092-4750-9174-ee3f0da9d703|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|166948000|82760000|c135cce7-b3d6-47e5-85f3-551c99294e86|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|166948000|83960000|135a27a4-f40b-45e0-869b-b90cbdbac3d9|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|166948000|85160000|f4b833a0-9b7e-4be5-91e6-df391f2a6f33|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|166948000|86360000|dab296ee-0f3a-47fd-9292-4bb7b0b5d36e|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|166948000|87560000|74429f30-a311-4dc5-9696-92f13b857dd7|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|166948000|88760000|8e19c8ae-f86e-4ef5-994c-c52f08c9290c|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|166948000|89960000|f3f4d0b8-12c2-4f0b-a93b-73a5a7623fa9|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|166948000|91160000|d6a850a6-d446-4b59-b8e9-e6039325d981|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|168148000|82760000|05f965b8-d6d0-4bb3-a49d-0c7f91b77ba6|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|168148000|83960000|5be8729b-f2da-4a54-869f-d78fd7821e35|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|168148000|85160000|d3134a54-6931-4cce-970c-5791c0fc4628|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|168148000|86360000|6cf93c42-20dd-48f4-87c3-03e5ea46cde3|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|168148000|87560000|0150e8b7-84b7-4780-89a5-312e2471b3e5|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|168148000|88760000|17d2c515-0c4a-4038-8296-9d06f96448cb|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|168148000|89960000|0c390ec5-1a24-46b9-898e-5b578b90012d|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|168148000|91160000|d8d7093b-2c93-4757-b072-ae39e8cc0c93|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|169348000|82760000|552a8765-02be-4224-a04e-8ba032459149|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|169348000|83960000|f3f4100f-12a0-468b-a3a9-54083e780524|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|169348000|85160000|5ade8dcc-2bf7-40ed-9102-ba0f042e2e4a|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|169348000|86360000|c3741db7-94d9-4b0b-b531-c63011758561|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|169348000|87560000|2cfa3f30-b626-495c-9465-b440c5e643cd|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|169348000|88760000|5b178ebc-f924-43f4-9a17-1f5d68353318|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|169348000|89960000|ca8ce33c-5a61-492a-9d4a-8e7de0150e41|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "drill_out_of_range|169348000|91160000|ec36552e-9d3f-4e7e-87a5-62aaf7229378|00000000-0000-0000-0000-000000000000",
+          "Via is part of GND pad."
+        ],
+        [
+          "items_not_allowed|104648000|108712000|d149d882-4e16-42d5-aa04-2cf6c7111009|00000000-0000-0000-0000-000000000000",
+          "The ESP32-C6-DEVKIT's antenna is the reason for the keepout area."
+        ],
+        [
+          "lib_footprint_mismatch|158496000|76200000|f47f9626-fda8-4c20-bbc8-6331fdabe7e3|00000000-0000-0000-0000-000000000000",
+          "Updated to meet the PCBWay design rules."
+        ],
+        [
+          "lib_footprint_mismatch|160295000|71016500|b2a51fbc-be8b-4905-8d85-13eb3e24820b|00000000-0000-0000-0000-000000000000",
+          "Increased the via hole dimention to 0.3mm for manufacturing"
+        ],
+        [
+          "lib_footprint_mismatch|161036000|76200000|40494ef3-ff76-4a84-9fa3-806ef8c673c4|00000000-0000-0000-0000-000000000000",
+          "Updated to meet the PCBWay design rules."
+        ],
+        [
+          "silk_edge_clearance|182372000|102700000|133ebfbc-08d1-4455-a77d-f201d008c254|444e249b-f591-4a0e-9134-6c0b07cf6a33",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|182372000|127170000|133ebfbc-08d1-4455-a77d-f201d008c254|b1542d2c-bc6c-4286-973a-2a646f258ebe",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|182372000|61044000|133ebfbc-08d1-4455-a77d-f201d008c254|98716a8d-a02e-48b4-a874-3198c7355dcd",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|182372000|70274000|133ebfbc-08d1-4455-a77d-f201d008c254|3a335386-66c9-4e98-bd88-402068fe2295",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|182372000|78316000|133ebfbc-08d1-4455-a77d-f201d008c254|caeb1e4b-6a77-4411-901b-46eb0e1fe59d",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|182372000|95166000|133ebfbc-08d1-4455-a77d-f201d008c254|1be4ce70-73e5-4f36-a642-e3df784d9507",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|81788000|109390000|133ebfbc-08d1-4455-a77d-f201d008c254|3fce3117-53e2-40ab-8306-892ec22f21b7",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|81788000|114130000|133ebfbc-08d1-4455-a77d-f201d008c254|351ac300-7a58-48b0-b309-39aaff855764",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|81788000|127170000|133ebfbc-08d1-4455-a77d-f201d008c254|4dfb31b4-404b-4036-b194-d226062ceca6",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|81788000|60790000|133ebfbc-08d1-4455-a77d-f201d008c254|5c9b29dc-00aa-4d78-b2fd-8becd46169f2",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|81788000|73830000|133ebfbc-08d1-4455-a77d-f201d008c254|3e68f907-95ee-45b6-9997-2a4081048dcc",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|81788000|78570000|133ebfbc-08d1-4455-a77d-f201d008c254|78999f6e-a859-4e52-b9d1-c92acc3d6411",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|81788000|91610000|133ebfbc-08d1-4455-a77d-f201d008c254|443252be-2f71-4719-8ab1-8536a0d7cf0a",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_edge_clearance|81788000|96350000|133ebfbc-08d1-4455-a77d-f201d008c254|46c2e587-1e19-431e-ba94-2a7cbd367638",
+          "Connector is supposed to extend out from the board."
+        ],
+        [
+          "silk_overlap|146763000|113882000|28d71d33-8fe3-49db-8ba8-363fab91d1da|482d7e0b-e32e-4e5d-9b87-5963967e6685",
+          "On the large GND pad."
+        ],
+        [
+          "silk_overlap|146763000|118782000|3b84cf3c-a568-4e03-9f0c-599bb9d6b14c|482d7e0b-e32e-4e5d-9b87-5963967e6685",
+          "On the large GND pad."
+        ],
+        [
+          "silk_overlap|146763000|93054000|bef69c97-8284-405a-a508-1ff14b247f0a|aa1df254-c32c-43e7-b9e7-12a74997b355",
+          "On the large GND pad."
+        ],
+        [
+          "silk_overlap|146763000|97954000|4ac3e214-75d1-48ed-9035-676d1983d90c|aa1df254-c32c-43e7-b9e7-12a74997b355",
+          "On the large GND pad."
+        ],
+        [
+          "silk_overlap|175800000|124460000|3a4ef6a7-0c82-4559-b63c-4be80780decf|05529f27-14bb-4a4e-9633-3245ed03f169",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|175800000|124460000|6fe2b2c1-9ff6-4fab-9559-a2750cc89c77|05529f27-14bb-4a4e-9633-3245ed03f169",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|175800000|67564000|97cbae50-7461-43db-a31f-feaa9f49de45|0c31cfc9-8cf3-4a69-a94b-648aa5ef782b",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|175800000|67564000|e7d0a2d0-a8ad-4541-bb8e-882b5512f405|0c31cfc9-8cf3-4a69-a94b-648aa5ef782b",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|175800000|92456000|018f4e4e-dfc5-44f7-9b23-1132678f74e6|da8b9a28-4db4-4ce1-a123-bdc385830c30",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|175800000|92456000|8a243557-4a5d-4720-a070-89cd0fd3d0b9|da8b9a28-4db4-4ce1-a123-bdc385830c30",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|176490000|123410000|c898c97b-d119-4fea-ac00-c6a978894195|05529f27-14bb-4a4e-9633-3245ed03f169",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|176490000|125510000|9dc0a091-f0ac-43c9-a650-29a133e59ddf|05529f27-14bb-4a4e-9633-3245ed03f169",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|176490000|66514000|b4a08bef-9823-4108-9f4d-fd588914dd32|0c31cfc9-8cf3-4a69-a94b-648aa5ef782b",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|176490000|68614000|fd8b20db-44a4-47db-97c9-cb6d74f1505d|0c31cfc9-8cf3-4a69-a94b-648aa5ef782b",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|176490000|91406000|29046ba9-c2e9-4098-b23d-ffd5551d48da|da8b9a28-4db4-4ce1-a123-bdc385830c30",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|176490000|93506000|25bfb9ef-e90e-4b80-b213-bc7df6f90e0d|da8b9a28-4db4-4ce1-a123-bdc385830c30",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|87670000|100110000|82a6e55f-bdef-45fc-a8b6-6b15021819fc|12fad32d-7cd7-4632-8c4f-825f3ab14680",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|87670000|115790000|ce84f65f-07d0-4a49-a319-b9b1f58f4c0b|79ea9e98-a972-4638-8d0c-622dfc2d2ced",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|87670000|117890000|397f9395-05a9-4e1a-a28b-bb069a801b67|79ea9e98-a972-4638-8d0c-622dfc2d2ced",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|87670000|62450000|b1220fd4-31a4-4bb8-9282-f184fb51c180|f9736b67-7acf-4ebc-a1f0-dcc03333a5b2",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|87670000|64550000|5183195b-871a-4fec-84eb-68b11cfb71c9|f9736b67-7acf-4ebc-a1f0-dcc03333a5b2",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|87670000|80230000|65478924-8ae3-4abd-82b1-d31a3aa8394f|be88b5e5-0641-4a5e-bcef-3b2ca31a7154",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|87670000|82330000|ac8929e0-b670-416f-83a8-50df7edfca0d|be88b5e5-0641-4a5e-bcef-3b2ca31a7154",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|87670000|98010000|6596ae2c-306b-4676-b5ca-e9fc24be8ef4|12fad32d-7cd7-4632-8c4f-825f3ab14680",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|88360000|116840000|8a15f4fe-a953-4436-b863-5516bb72b96d|79ea9e98-a972-4638-8d0c-622dfc2d2ced",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|88360000|116840000|c1ef45f9-8990-41e2-a5fa-65cb55b54dda|79ea9e98-a972-4638-8d0c-622dfc2d2ced",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|88360000|63500000|0f2a9b90-5abb-4753-8acb-d512748ac2a9|f9736b67-7acf-4ebc-a1f0-dcc03333a5b2",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|88360000|63500000|66999ee3-7abc-4a1d-9e7b-abdcde7c7996|f9736b67-7acf-4ebc-a1f0-dcc03333a5b2",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|88360000|81280000|29e1c39e-4964-448a-bc18-971f8b5394bd|be88b5e5-0641-4a5e-bcef-3b2ca31a7154",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|88360000|81280000|37272fdb-4acf-41bd-afa4-5e434e11fd0c|be88b5e5-0641-4a5e-bcef-3b2ca31a7154",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|88360000|99060000|ec1da9e5-b862-4df9-a63b-918b8efae0da|12fad32d-7cd7-4632-8c4f-825f3ab14680",
+          "Component soldered on the bottom."
+        ],
+        [
+          "silk_overlap|88360000|99060000|f213edff-19d6-4916-a46b-fe99f32685cb|12fad32d-7cd7-4632-8c4f-825f3ab14680",
+          "Component soldered on the bottom."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -80,7 +505,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -125,19 +550,19 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -154,7 +579,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -165,7 +590,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -176,7 +601,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -188,8 +613,15 @@
       ],
       "track_widths": [
         0.0,
-        0.6,
-        0.9
+        0.1016,
+        0.127,
+        0.1524,
+        0.2,
+        0.2032,
+        0.254,
+        0.3048,
+        0.508,
+        0.762
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -221,6 +653,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4064,
+          "drill": 0.2032
+        },
+        {
+          "diameter": 0.4572,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.61,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -473,20 +917,54 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1524,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.1524,
+        "line_style": 0,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Power_1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3048,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.1524,
+        "line_style": 0,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.254,
+        "name": "Power_2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
+        "via_diameter": 0.4572,
+        "via_drill": 0.254,
         "wire_width": 6
       }
     ],
