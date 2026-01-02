@@ -167,3 +167,25 @@
 (constraint silk_clearance (min 0.15mm))
 (layer outer)
 (condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
+
+# NXS rules
+(rule "U1 EP Thermal Pads"
+  (constraint hole_size (min 0.3mm))
+  (constraint annular_width (min 0.1mm))
+  (condition "A.memberOfFootprint('U1') && A.Pad_Number == '25'"))
+
+(rule "U2 EP Thermal Pads"
+  (constraint hole_size (min 0.3mm))
+  (constraint annular_width (min 0.15mm))
+  (condition "A.memberOfFootprint('U2') && A.Pad_Number == '9'"))
+
+(rule "U4 EP Thermal Pads"
+  (constraint hole_size (min 0.3mm))
+  (constraint annular_width (min 0.15mm))
+  (condition "A.memberOfFootprint('U4') && A.Pad_Number == '29'"))
+
+
+(rule "Allow connector silk to intersect board edge"
+    (constraint silk_clearance)
+    (severity ignore)
+    (condition "A.memberOfFootprint('J*') && B.Layer=='Edge.Cuts'"))
