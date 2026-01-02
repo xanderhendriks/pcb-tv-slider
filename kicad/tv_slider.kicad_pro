@@ -999,7 +999,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "U*",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
