@@ -1533,6 +1533,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 40.64) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25852fb7-8fc4-4aa7-b193-02509ffb7f81")
+	)
+	(wire
+		(pts
 			(xy 167.64 60.96) (xy 167.64 66.04)
 		)
 		(stroke
@@ -1843,16 +1853,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 68.58) (xy 116.84 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc010b3-b309-4ae3-a027-fefd51266eec")
-	)
-	(wire
-		(pts
 			(xy 208.28 54.61) (xy 208.28 91.44)
 		)
 		(stroke
@@ -2043,6 +2043,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 68.58) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebfb7364-050c-4513-aa63-730e56adf662")
+	)
+	(wire
+		(pts
 			(xy 157.48 111.76) (xy 161.29 111.76)
 		)
 		(stroke
@@ -2112,17 +2122,6 @@
 			(justify left)
 		)
 		(uuid "1ed15adb-25a5-45e6-aa96-5af7b1e3af94")
-	)
-	(hierarchical_label "ENABLE"
-		(shape input)
-		(at 88.9 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "295d5f41-bb7c-48b4-b57c-aec0532fbd48")
 	)
 	(hierarchical_label "MISO"
 		(shape output)
@@ -2925,6 +2924,72 @@
 			(project "tv_slider"
 				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 113.03 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f266f75-aeb1-4241-b1b4-d157ab7b1639")
+		(property "Reference" "#PWR097"
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47a4fd49-ad87-4e5e-9535-2de5a3b0d242")
+		)
+		(instances
+			(project "tv_slider"
+				(path "/914c4b67-a7a4-47f3-8515-668040fd3f8c/e5516eed-629d-4c0b-bb03-2e43d030d802"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
