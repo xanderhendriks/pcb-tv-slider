@@ -1,4 +1,6 @@
-kicad/~tv_slider.kicad_pcb.lck
+kicad/*.lck
+kicad/_autosave*
 kicad/fp-info-cache
 kicad/tv_slider-backups
 kicad/local_library.bak
+kicad/production

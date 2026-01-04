@@ -69,7 +69,7 @@
         ],
         [
           "lib_footprint_mismatch|160295000|71016500|b2a51fbc-be8b-4905-8d85-13eb3e24820b|00000000-0000-0000-0000-000000000000",
-          "Increased the via hole dimention to 0.3mm for manufacturing."
+          "Changed via hole diameter to 0.3 mm."
         ],
         [
           "lib_footprint_mismatch|161036000|76200000|40494ef3-ff76-4a84-9fa3-806ef8c673c4|00000000-0000-0000-0000-000000000000",
@@ -77,15 +77,15 @@
         ],
         [
           "lib_footprint_mismatch|168410500|86960000|79f5e20f-bcae-486e-b0a6-64c862eec59c|00000000-0000-0000-0000-000000000000",
-          "Increased the via hole dimention to 0.3mm for manufacturing."
+          "Changed via hole diameter to 0.3 mm."
         ],
         [
-          "silk_overlap|149811000|92546000|28d71d33-8fe3-49db-8ba8-363fab91d1da|482d7e0b-e32e-4e5d-9b87-5963967e6685",
-          "This is the large GND pad."
+          "silk_overlap|149811000|92546000|d1e5381b-7a7e-45a6-8aa6-1ee6c1101977|f1521327-1edd-4058-9cc9-405090e0e9a7",
+          "Next to large ground plane."
         ],
         [
-          "silk_overlap|149811000|97446000|3b84cf3c-a568-4e03-9f0c-599bb9d6b14c|482d7e0b-e32e-4e5d-9b87-5963967e6685",
-          "This is the large GND pad."
+          "silk_overlap|149811000|97446000|adf25ee7-c91a-4eb2-9c22-9889a5913f48|f1521327-1edd-4058-9cc9-405090e0e9a7",
+          "Next to large ground plane."
         ],
         [
           "silk_overlap|175800000|124460000|3a4ef6a7-0c82-4559-b63c-4be80780decf|05529f27-14bb-4a4e-9633-3245ed03f169",
@@ -280,7 +280,7 @@
         "min_track_width": 0.1016,
         "min_via_annular_width": 0.1016,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -892,6 +892,12 @@
         },
         {
           "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "MF",
           "name": "MF",
           "show": true
@@ -958,6 +964,12 @@
         },
         {
           "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
           "show": true
@@ -978,7 +990,7 @@
           "group_by": false,
           "label": "Dielectric",
           "name": "Dielectric",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -999,7 +1011,7 @@
           "show": false
         }
       ],
-      "filter_string": "U*",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -1072,5 +1084,7 @@
       "Shaft encoder"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "REVISION": "1.1"
+  }
 }

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TV slider")
-		(date "2025-12-23")
-		(rev "1.0")
+		(date "2026-01-03")
+		(rev "${REVISION}")
 		(company "NX Solutions")
 	)
 	(lib_symbols
@@ -2840,7 +2840,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "ISL3280EIHZ-TCT-ND"
+		(property "SupplierPN" "20-ISL3280EFHZ-TCT-ND"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -2858,7 +2858,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ISL3280EIHZ-T"
+		(property "MP" "ISL3280EFHZ-T"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -2868,6 +2868,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3227945"
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -2982,7 +3000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Uni Royal"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -2991,7 +3009,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-07100KL"
+		(property "MP" "0603WAF1003T5E"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -3001,6 +3019,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -3236,7 +3272,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Uni Royal"
 			(at 88.9 110.49 0)
 			(effects
 				(font
@@ -3245,7 +3281,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0710RL"
+		(property "MP" "0603WAF100JT5E"
 			(at 88.9 110.49 0)
 			(effects
 				(font
@@ -3255,6 +3291,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 88.9 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
+			(at 88.9 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 88.9 110.49 90)
 			(effects
 				(font
@@ -3488,6 +3542,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3234980"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6db0bf50-e577-4d14-9759-3ed06fce8a2b")
 		)
@@ -3667,7 +3739,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Uni Royal"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -3676,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0710RL"
+		(property "MP" "0603WAF100JT5E"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -3686,6 +3758,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 88.9 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
+			(at 88.9 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 88.9 57.15 90)
 			(effects
 				(font
@@ -3764,7 +3854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "50V"
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -3773,7 +3863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" ""
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -3791,7 +3881,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-3285-1-ND"
+		(property "SupplierPN" "311-1344-1-ND"
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -3800,7 +3890,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "Yageo"
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -3809,7 +3899,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM188R72A104KA35D"
+		(property "MP" "CC0603KRX7R9BB104"
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -3819,6 +3909,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 142.24 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -3924,7 +4032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Uni Royal"
 			(at 113.03 101.6 0)
 			(effects
 				(font
@@ -3933,7 +4041,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-07120RL"
+		(property "MP" "0603WAF1200T5E"
 			(at 113.03 101.6 0)
 			(effects
 				(font
@@ -3943,6 +4051,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22787"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 113.03 101.6 0)
 			(effects
 				(font
@@ -4046,7 +4172,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Uni Royal"
 			(at 88.9 74.93 0)
 			(effects
 				(font
@@ -4055,7 +4181,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0710RL"
+		(property "MP" "0603WAF100JT5E"
 			(at 88.9 74.93 0)
 			(effects
 				(font
@@ -4065,6 +4191,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 88.9 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
+			(at 88.9 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 88.9 74.93 90)
 			(effects
 				(font
@@ -4173,7 +4317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM712_SOT23"
+		(property "Value" "SM712"
 			(at 73.66 102.8699 90)
 			(effects
 				(font
@@ -4209,7 +4353,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "SMC Diode Solutions"
+		(property "MF" "Hong Jiacheng"
 			(at 76.2 101.6 90)
 			(effects
 				(font
@@ -4245,7 +4389,25 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "1655-SM712CT-ND"
+		(property "SupplierPN" "5399-SM712CT-ND"
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420375"
+			(at 76.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 76.2 101.6 90)
 			(effects
 				(font
@@ -4525,7 +4687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "50V"
 			(at 157.48 167.64 0)
 			(effects
 				(font
@@ -4534,7 +4696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" ""
 			(at 157.48 167.64 0)
 			(effects
 				(font
@@ -4552,7 +4714,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-3285-1-ND"
+		(property "SupplierPN" "311-1344-1-ND"
 			(at 157.48 167.64 0)
 			(effects
 				(font
@@ -4561,7 +4723,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "Yageo"
 			(at 157.48 167.64 0)
 			(effects
 				(font
@@ -4570,7 +4732,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM188R72A104KA35D"
+		(property "MP" "CC0603KRX7R9BB104"
 			(at 157.48 167.64 0)
 			(effects
 				(font
@@ -4580,6 +4742,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 157.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 157.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 157.48 167.64 0)
 			(effects
 				(font
@@ -4724,7 +4904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "C0G, NP0"
+		(property "Dielectric" ""
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4742,7 +4922,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-1427-1-ND"
+		(property "SupplierPN" "1276-1008-1-ND"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4751,7 +4931,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "Samsung"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4760,7 +4940,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM1885C1H101JA01D"
+		(property "MP" "CL10C101JB8NNNC"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4779,6 +4959,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14858"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -4857,7 +5055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "50V"
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -4866,7 +5064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" ""
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -4884,7 +5082,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-3285-1-ND"
+		(property "SupplierPN" "311-1344-1-ND"
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -4893,7 +5091,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "Yageo"
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -4902,7 +5100,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM188R72A104KA35D"
+		(property "MP" "CC0603KRX7R9BB104"
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -4912,6 +5110,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 127 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 127 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -4954,7 +5170,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM712_SOT23"
+		(property "Value" "SM712"
 			(at 73.66 67.3099 90)
 			(effects
 				(font
@@ -4990,7 +5206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "SMC Diode Solutions"
+		(property "MF" "Hong Jiacheng"
 			(at 76.2 66.04 90)
 			(effects
 				(font
@@ -5026,7 +5242,25 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "1655-SM712CT-ND"
+		(property "SupplierPN" "5399-SM712CT-ND"
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420375"
+			(at 76.2 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 76.2 66.04 90)
 			(effects
 				(font
@@ -5174,7 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "50V"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -5183,7 +5417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" ""
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -5201,7 +5435,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-3285-1-ND"
+		(property "SupplierPN" "311-1344-1-ND"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -5210,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "Yageo"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -5219,7 +5453,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM188R72A104KA35D"
+		(property "MP" "CC0603KRX7R9BB104"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -5229,6 +5463,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 85.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -5351,7 +5603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "60V"
+		(property "Voltage" ""
 			(at 123.19 132.08 90)
 			(effects
 				(font
@@ -5361,6 +5613,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 123.19 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C207035"
+			(at 123.19 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 123.19 132.08 90)
 			(effects
 				(font
@@ -5532,7 +5802,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Uni Royal"
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -5541,7 +5811,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-07120RL"
+		(property "MP" "0603WAF1200T5E"
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -5551,6 +5821,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22787"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -5959,7 +6247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "C0G, NP0"
+		(property "Dielectric" ""
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -5977,7 +6265,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "490-1427-1-ND"
+		(property "SupplierPN" "1276-1008-1-ND"
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -5986,7 +6274,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "Samsung"
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -5995,7 +6283,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM1885C1H101JA01D"
+		(property "MP" "CL10C101JB8NNNC"
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -6014,6 +6302,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14858"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -6056,7 +6362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMF6V0A"
+		(property "Value" "SMF6.0A"
 			(at 99.06 138.4299 90)
 			(effects
 				(font
@@ -6065,7 +6371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 91.44 137.16 0)
 			(effects
 				(font
@@ -6092,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Vishay"
+		(property "MF" "Hong Jiacheng"
 			(at 96.52 137.16 90)
 			(effects
 				(font
@@ -6101,7 +6407,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SMF6V0A-E3-08"
+		(property "MP" "SMF6.0A"
 			(at 96.52 137.16 90)
 			(effects
 				(font
@@ -6128,7 +6434,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "SMF6V0A-E3-08CT-ND"
+		(property "SupplierPN" "5399-SMF6.0ACT-ND"
 			(at 96.52 137.16 90)
 			(effects
 				(font
@@ -6138,6 +6444,24 @@
 			)
 		)
 		(property "Voltage" "10.3V"
+			(at 96.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077499"
+			(at 96.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 96.52 137.16 90)
 			(effects
 				(font
@@ -6233,7 +6557,7 @@
 				(hide yes)
 			)
 		)
-		(property "SupplierPN" "ISL3280EIHZ-TCT-ND"
+		(property "SupplierPN" "20-ISL3280EFHZ-TCT-ND"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -6251,7 +6575,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ISL3280EIHZ-T"
+		(property "MP" "ISL3280EFHZ-T"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -6261,6 +6585,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3227945"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -6373,7 +6715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Uni Royal"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -6382,7 +6724,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0710RL"
+		(property "MP" "0603WAF100JT5E"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -6392,6 +6734,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 88.9 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
+			(at 88.9 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 88.9 92.71 90)
 			(effects
 				(font
@@ -6536,7 +6896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" ""
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -6591,6 +6951,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -6865,7 +7243,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "Sunlord"
 			(at 109.22 132.08 0)
 			(effects
 				(font
@@ -6874,7 +7252,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "BLM21PG221SN1D"
+		(property "MP" "GZ2012D101TF"
 			(at 109.22 132.08 0)
 			(effects
 				(font
@@ -6902,6 +7280,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 109.22 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1015"
+			(at 109.22 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 109.22 132.08 90)
 			(effects
 				(font
