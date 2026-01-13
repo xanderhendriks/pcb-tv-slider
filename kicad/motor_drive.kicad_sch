@@ -2381,7 +2381,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 137.16 73.66 0)
 			(effects
 				(font

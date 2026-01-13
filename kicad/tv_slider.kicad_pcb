@@ -5441,7 +5441,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "90"
+		(property "FT Rotation Offset" "270"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16541,7 +16541,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19985,7 +19985,7 @@
 				)
 			)
 		)
-		(property "SupplierPN" "732-5317-ND"
+		(property "SupplierPN" "732-5318-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
