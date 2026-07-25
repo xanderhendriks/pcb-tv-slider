@@ -1,4 +1,5 @@
 kicad/*.lck
+kicad/.history/*
 kicad/_autosave*
 kicad/fp-info-cache
 kicad/tv_slider-backups
