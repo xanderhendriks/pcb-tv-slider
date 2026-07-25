@@ -4,11 +4,6 @@ on:
   push:
     tags:
       - 'v*'
-  workflow_dispatch:
-    inputs:
-      tag:
-        description: 'Existing tag to (re)build release files for, e.g. v1.0'
-        required: true
 
 permissions:
   contents: write
@@ -27,16 +22,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v7.0.1
-        with:
-          ref: ${{ inputs.tag || github.ref_name }}
 
       - name: Resolve release version
         shell: bash
         run: |
-          TAG="${{ inputs.tag || github.ref_name }}"
-          VERSION="${TAG#v}"
+          VERSION="${GITHUB_REF_NAME#v}"
           test -n "$VERSION"
-          echo "RELEASE_TAG=$TAG" >> "$GITHUB_ENV"
           echo "RELEASE_VERSION=$VERSION" >> "$GITHUB_ENV"
           echo "RELEASE_BASENAME=${PROJECT_NAME}_${VERSION}" >> "$GITHUB_ENV"
           echo "Release version: $VERSION"
@@ -116,13 +107,13 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v3.0.2
         with:
-          tag_name: ${{ env.RELEASE_TAG }}
+          tag_name: ${{ github.ref_name }}
           name: ${{ env.RELEASE_VERSION }}
           generate_release_notes: true
           body: |
             | Top | Bottom |
             | --- | --- |
-            | ![Top](https://github.com/${{ github.repository }}/releases/download/${{ env.RELEASE_TAG }}/${{ env.RELEASE_BASENAME }}_top.png) | ![Bottom](https://github.com/${{ github.repository }}/releases/download/${{ env.RELEASE_TAG }}/${{ env.RELEASE_BASENAME }}_bottom.png) |
+            | ![Top](https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${{ env.RELEASE_BASENAME }}_top.png) | ![Bottom](https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${{ env.RELEASE_BASENAME }}_bottom.png) |
           files: |
             dist/${{ env.RELEASE_BASENAME }}.zip
             dist/${{ env.RELEASE_BASENAME }}_bom.csv
