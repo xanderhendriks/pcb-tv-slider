@@ -36,18 +36,30 @@ jobs:
         shell: bash
         run: |
           python3 - <<'PY'
-          import json, os
+          import json, os, re
 
-          path = os.path.join(
-              os.environ["PROJECT_DIR"],
-              os.environ["PROJECT_NAME"] + ".kicad_pro",
-          )
-          with open(path) as f:
+          base = os.path.join(os.environ["PROJECT_DIR"], os.environ["PROJECT_NAME"])
+          ver = os.environ["RELEASE_VERSION"]
+
+          # Project text variable (used by kicad-cli, which synchronizes on load)
+          with open(base + ".kicad_pro") as f:
               pro = json.load(f)
-          pro.setdefault("text_variables", {})["REVISION"] = os.environ["RELEASE_VERSION"]
-          with open(path, "w") as f:
+          pro.setdefault("text_variables", {})["REVISION"] = ver
+          with open(base + ".kicad_pro", "w") as f:
               json.dump(pro, f, indent=2)
-          print(f"REVISION={os.environ['RELEASE_VERSION']} written to {path}")
+
+          # Board-level property snapshot (used by Fabrication Toolkit, which
+          # loads the board without SynchronizeProperties())
+          with open(base + ".kicad_pcb") as f:
+              pcb = f.read()
+          pcb, n = re.subn(
+              r'^(\t\(property "REVISION" ")[^"]*("\))',
+              rf'\g<1>{ver}\g<2>',
+              pcb, flags=re.M)
+          assert n == 1, f"expected 1 board REVISION property, patched {n}"
+          with open(base + ".kicad_pcb", "w") as f:
+              f.write(pcb)
+          print(f"REVISION={ver} written to .kicad_pro and .kicad_pcb")
           PY
 
       - name: Fetch Fabrication Toolkit
